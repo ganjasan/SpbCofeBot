@@ -81,7 +81,9 @@ def getNearestPlacesIndexes(tree, lat, lng, neighbors_k ):
 
     return ind[0]
 
-bot = telebot.TeleBot(config.token)
+TOKEN = ''
+
+bot = telebot.TeleBot(TOKEN)
 
 places = loadPlacesFromKML(config.places_kml_file)
 trees = getKDTrees(places)
