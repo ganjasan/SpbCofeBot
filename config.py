@@ -1,0 +1,1 @@
+places_kml_file = 'cofe.kml'
